@@ -1,0 +1,211 @@
+.heroImage {
+  display: flex;
+  flex: 1;
+  margin-left: -20;
+}
+
+.hero-block {
+  max-height: 100vh !important;
+  max-width: 55vw;
+}
+
+.contain{
+    min-width: 100vw !important;
+}
+
+.dots {
+  width: 20%;
+  position: absolute;
+  top: -10;
+  right: -30;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+h6 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 4%;
+  margin-left: 25%;
+}
+
+.qr {
+  position: absolute;
+  top: 50;
+  left: 50;
+  width: 120;
+}
+
+.button {
+  position: absolute;
+  bottom: -15;
+  left: -10;
+  width: 220;
+  height: 90;
+  background-color: #101010;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #242424;
+  transition: ease-in-out 20ms;
+  animation-duration: 0ms;
+}
+
+.phone {
+  text-decoration: none;
+  color: #121212;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.phone:hover {
+  color: #121212;
+}
+
+.phoneHold {
+  margin-top: 10%;
+}
+
+i {
+  color: #242424;
+  margin-right: 5%;
+}
+
+.linktext {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.35rem;
+}
+
+.loc{
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.email {
+  margin-left: 15%;
+}
+.button i{
+    color: white;
+}
+
+.logos{
+margin-top: 15%;
+margin-left: 0%;
+}
+
+.logo{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 120;
+}
+
+.logoapp{
+    width: 180;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logosapp{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.mobilehero{
+    display: flex;
+    flex: 1;
+    max-height: 34.7vh;
+    margin-left: -15;
+}
+
+.mobile-h1{
+font-size: 2rem;
+margin-left: 12%;
+}
+
+.mobile-h6{
+    font-size: 1.3rem;
+    margin-top: 7%;
+    margin-left: 32%;
+}
+
+.mobile-i{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.moblinktext{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.moblogos{
+    margin-top: 15%;
+}
+
+.moblogo{
+    width: 90;
+    margin-left: 5%;
+}
+
+.moblogosapp{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.moblogoapp{
+    width: 100;
+}
+
+.mobqr{
+    position: absolute;
+    top: 25;
+    right: 25;
+}
+
+.mobbutton{
+
+    background-color: #101010;
+  color: white;
+  border: none;
+  width: 120;
+  height: 50;
+  margin-top: -50;
+  margin-left: -15;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 1192px) {
+  * {
+    overflow: hidden;
+  }
+  .mobile{
+      display: none;
+  }
+}
+
+
+@media(max-width : 500px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
