@@ -145,8 +145,9 @@ i {
 .mobilehero {
   display: flex;
   flex: 1;
-  max-height: 34.7vh;
+  max-height: 25vh;
   margin-left: -15;
+  min-width: 100vw;
 }
 
 .mobdisplay-pic {
